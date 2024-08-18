@@ -1,0 +1,38 @@
+        .title{ font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            margin: 0;
+            background-color: #f0f0f0;
+
+        }
+        .button-container {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 20vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        
+        }
+        .button-container {
+            display: flex;
+            gap: 20px;
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 50px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            color: white;
+        }
+        .cpp { background-color: #5c6bc0; }
+        .web-dev { background-color: #26a69a; }
+        .python { background-color: #ffca28; color: }
+        .java { background-color: #50efd2; }
+        button:hover {
+            opacity: 0.9;
+        }
